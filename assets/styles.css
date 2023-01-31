@@ -1,0 +1,82 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+body{
+    font-family: 'Roboto', sans-serif;
+    width: 375px;
+    height: 100vh;
+    position:fixed;
+    left: 0px;
+    top: 0px;
+}    
+header {
+    height: 80px;
+    width: 375px;
+    position:fixed;
+    left: 0px;
+    top: 0px;
+    display: flex;
+    justify-content: space-between;
+    justify-items: center;
+    align-items: center;
+    z-index: 1;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.05);
+}
+
+header ion-icon{
+    Width:42.19px;
+Height:30.94px;
+}
+footer  ion-icon{
+    width:  26px;
+    height: 26px;
+}
+header img, header ion-icon,
+footer ion-icon, footer input{
+    margin-left: 23px;
+    margin-right: 23px;
+    size:auto;
+}
+
+footer{
+    position: absolute;
+    width: 375px;
+    height: 80px;
+    right: 0px;
+    bottom: 0px;
+    display: flex;
+    justify-content: space-between;
+    justify-items: center;
+    align-items: center;
+    box-shadow: 0px -4px 6px rgba(0, 0, 0, 0.05);   
+}
+#chat{
+    overflow-y: scroll;
+    margin-top: 80px;
+    max-height: 78vh;
+}
+#chat::-webkit-scrollbar{
+    background-color: transparent;
+}
+
+.chatmsg {
+    padding: 12px;
+    margin-bottom: 3px;    
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 20px;
+border-radius: 2px;
+}
+
+.status {
+    background-color: lightgrey;
+}
+.pvt {
+    background-color: #FFDEDE;
+}
+strong {
+    font-weight: bold;
+}
+span {
+    color: #AAAAAA;
+}
